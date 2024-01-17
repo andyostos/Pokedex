@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex uwu</title>
+    <script async defer src="./pokedex.js"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <h2>☆ *:... o (≧ ▽ ≦) o...: * ☆</h2>
+    <div class="tarjeta" id="pokemonCard">
+        <img id="pokemonImage" src="" alt="Imagen del Pokémon">
+        <div class="contenido">
+            <h2 id="pokemonName">Nombre del Pokémon</h2>
+            <p>ID: <span id="pokemonID"></span></p>
+            <p>Peso: <span id="pokemonWeight"></span></p>
+        </div>
+        <button onclick="guardarEnLocalStorage()">Guardar en localStorage</button>
+    </div>
+</body>
+</html>
